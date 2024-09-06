@@ -1,0 +1,104 @@
+@font-face {
+    font-family:one;
+    src: url(Teko-VariableFont_wght.ttf);
+}
+@font-face {
+    
+    font-family: myfont;
+    src: url(Sternbach-Italic.otf);
+}
+body{
+    overflow: hidden;
+    font-family: one;
+}
+#logo{
+    display: flex;
+    position: relative;
+    /* top: 0px; */
+    left: -190px;
+    font-size: 100px;
+    font-family: myfont;
+        
+    
+}
+
+
+
+#line{
+    content:"";
+    height: 2px;
+    width: 30px;
+    position:absolute;
+    top:35px;
+    right: -1px;
+    z-index:10;
+    background-color: red;
+    /* border: ; */
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    /* background-color: black;
+    color: white; */
+    width: 80%;
+    height: 65px;
+    align-items: center;
+    /* box-shadow: 0px 5px 10px 0.001px black; */
+    border-radius:2px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    font-size: large;
+    
+}
+ul{
+    display: flex;
+    /* gap: 15px */
+    padding-left: 0px;
+}
+li{
+    list-style:none;
+    text-align: center;
+    width: 130px;
+    
+}
+#logo{
+    position: relative;
+    /* top: 0px; */
+    left: -140px;
+    font-size: 20px;
+}
+#v{
+    margin: 0px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    /* height: 100%; */
+    overflow: hidden;
+}
+
+#mid-image{
+    position:relative;
+    top: 150px;
+    left:420px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}

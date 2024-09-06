@@ -1,0 +1,13 @@
+.lst{
+    list-style-type: none;
+    display: inline;
+    border: 1px black double ;
+    padding: 10px 20px;
+    margin: 5px;
+
+}
+
+.yeah{
+    list-style-image: url();
+
+}

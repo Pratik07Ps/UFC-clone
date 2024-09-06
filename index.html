@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>UFC</title>
+</head>
+<body>
+    <video autoplay loop  muted plays-inline id="v">
+        <source src="videoplayback.webm" type="video/mp4">
+    </video>
+
+    <header>
+        <nav>
+            <div>
+                <ul>
+                    <li onmouseover="slide(1)" onmouseout="slideBack(1)"><a href="events.html" >EVENTS</a></li>
+                    <li onmouseover="slide(2)" onmouseout="slideBack(2)"><a href="titleholder.html" >RANKING</a></li>
+                    <li onmouseover="slide(3)" onmouseout="slideBack(3)"><a href="Atheletes.html" >ATHELETES</a></li>
+                </ul>
+            </div>
+            <div id="logo"  onmouseover="slide(0)" onmouseout="slideBack(0)" onClick="window.location.reload(true)"  style="cursor:pointer ;">UFC
+                <div id="line"></div>
+            </div>
+            <div>
+                
+                <ul>
+                    <li onmouseover="slide(4)" onmouseout="slideBack(4)"><a href="shop.html">SHOP</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <img id="mid-image" src="pngimg.com - ufc_PNG61.png" alt="">
+
+
+    <script src="index.js"></script>    
+    
+</body>
+</html>
